@@ -20,7 +20,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2.4.13
         with:
           hugo-version: '0.88.1'
-          # extended: true
+          extended: true
 
       - name: Build
         run: hugo --minify --baseURL=https://boyone.github.io/hugo-in-action-acme/
